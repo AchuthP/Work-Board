@@ -24,6 +24,16 @@ nameController = {
      getTeacher: (req,res,next) => {
         res.render('teacherview', {title:"title"})
     },
+
+      // get student profile view
+      getStud: (req,res,next) => {
+        res.render('userview', {title:"title"})
+    },
+
+      // get teacher project posted feedback view
+      getTfeed: (req,res,next) => {
+        res.render('tfeedback', {title:"title"})
+    },
 } 
 
 module.exports = nameController;

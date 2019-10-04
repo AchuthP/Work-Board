@@ -22,7 +22,8 @@ router.get('/login', (req, res) => {
 })
 
 router.get('/teacherview', nameController.getTeacher)
-
+router.get('/userview', nameController.getStud)
+router.get('/tfeedback', nameController.getTfeed)
 
 
 
