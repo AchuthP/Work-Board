@@ -19,7 +19,11 @@ nameController = {
     },
     getSignup: (req,res,next) => {
         res.render('signup', {title:"title"})
-    }
+    },
+     // get teacher profile view
+     getTeacher: (req,res,next) => {
+        res.render('teacherview', {title:"title"})
+    },
 } 
 
 module.exports = nameController;
